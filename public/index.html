@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sitio de Claudia Cano... pasen y vean</title>
+    <link href="./output.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap" rel="stylesheet">
+    <script src="./app.js" defer></script>
+
+  </head>
+<body class="bg-gray-300">
+
+
+    <header>
+      <nav
+        class="flex justify-between py-10 m-auto px-10 text-lg font-medium tracking-widest md:items-center"
+      >
+      <div
+      id="menu"
+      class="bg-white dark:bg-slate-800 p-7 h-[150px] w-[320px] 
+      md:flex flex-col items-start justify-around rounded-lg text-dark
+       dark:text-white md:flex-row md:w-full md:py-0 md:h-[50px] md:bg-inherit 
+       md:dark:bg-primary hidden"
+       >
+          <ul class="flex h5/6 flex-col justify-around md:flex-row md:justify-center w-full">
+            <li class="md:px-5 hover:text-pink-500"><a href="#quiensoy">Quién soy</a></li>
+            <li class="md:px-5 hover:text-pink-500"><a href="#temario">Temario</a></li>
+          </ul>
+
+        </div>
+        <button id="menu-boton" class="absolute top-10 right-12 md:hidden">
+          <span class="br-1 block bg-black my-2 rounded-md h-[3px] w-[28px]"></span>
+          <span class="br-2 block bg-black my-2 rounded-md h-[3px] w-[28px]"></span>
+          <span class="br-3 block bg-black my-2 rounded-md h-[3px] w-[28px]"></span>
+        </button>
+      </nav>
+      
+    </header>
+
+    <main>
+
+      <section class=" px-10 flex flex-col lg:flex-row lg:h-[850px]">
+        <div class="p-10 lg:w-[80%] lg:h-[550px]">
+          <h1 class="text-sky-400 text-2xl font-bold tracking-widest leading-10">Hola, soy Claudia</h1>
+          <div>Y quiero invitarte este 9 de septiembre a horas 17:30 hs para un taller en
+              Casa Tomada Multiespacio (Ramirez de Velazco 253)
+              </br>
+              <span class="font-bold ">INSCRIPCIÓN GRATUITA envíame un MP por Instagram </span>
+              
+              <a href="https://www.instagram.com/clawcano/"
+              class=" hover:text-pink-500 font-bold text-lg">
+                  @clawcano
+              </a>
+              <br/>
+          </div>
+          <br/>
+        </div>
+        <image class="bg-center bg-auto m-10 p-10" src="../img/Taller.jpeg" alt="Taller"></image>
+      </section>
+    </main>
+<br/>
+<br/>
+    <section id="temario">
+      <h3 class="text-3xl pt-10  ml-20 mr-20 pt-30 ">
+        Programa:
+      </h3>
+
+      <div class="pt-10  ml-20 mr-20 pt-30 grid-cols-6 flex ">
+       
+        <table>
+          <tr>
+            <td>
+              <lu class="text-2xl  ml-50 font-sans">
+                <li>
+                  Qué es la historieta? Tipos de Historieta 
+                </li>
+                <li>
+                  ¿Qué elementos conforman una historieta?. Viñetas, globos de texto, personajes, onomatopeyas, espacio/tiempo
+                </li>
+                <li>
+                  ¿Qué es un guión? 
+                </li>
+                <li>
+                  ¿Que recursos visuales usamos para narrar?
+                </li>
+                <li>Planos</li>
+                <li>Indicios de tiempo</li>
+                <li>Composición de página</li>
+              </lu>
+            </td>           
+            <td><image class="bg-fuchsia-500 ml-10 mr-10 " width="70%"  src="../img/lluvia.jpg" alt="Taller"></image></td>
+          </tr>
+        </table>
+       
+      </div>
+    </section>
+
+    <br/>
+    
+
+    <br/>
+    <section id="quiensoy" class="mt-20 pt-20">
+    <h2 class="bg-pink-600 text-xl ml-20 mr-20 rounded-2xl p-1 mb-5 text-white">¿Quién soy?</h2>
+    <figure class="md:mb-10 md:flex shadow-xl mb-30 bg-slate-100 rounded-xl p-8 ml-20 mr-20  md:p-0 dark:bg-slate-800 ">
+        <img class="w-24 h-24 md:w-48 md:h-auto md:rounded-none rounded-full mx-auto" 
+        src="../img/Claw.png" alt="Sexy">
+        <div class="pt-6 md:p-8 text-center md:text-left space-y-4">
+          <blockquote>
+            <p class="text-1xl italic ">
+              “Claudia Cano (Claw). Ilustradora, historietista y profesora de Artes Visuales. <br/>
+               Diseñadora Gráfica del equipo de House of Wolves (trilogía de fantasía) desde 2016. <br/>
+               Publiqué mis primeros fanzines de historietas con el grupo BlackSnow durante 2010 y 2014 
+               y con Apofis ediciones (Colectivo de historietistas del NOA) durante 2018 y 2020. <br/>
+               Actualmente trabajando en varios proyectos, me doy mis tiempos para mí y gestionar 
+               mi espacio en Instagram @clawcano...”
+            </p>
+          </blockquote>
+          <figcaption class="font-medium">
+            <div class="text-pink-600 dark:text-sky-400">
+              Claudia Cano
+            </div>
+            <div class="text-slate-700 dark:text-slate-500">
+              San Salvador de Jujuy, Argentina
+            </div>
+          </figcaption>
+        </div>
+      </figure>
+    </section>
+
+<br/>
+<br/>
+
+
+  <br/>
+      <div class="my-3">
+        <button onclick="location.href='https://forms.gle/sxfTgFQjVnEStTqF6';"
+          class="bg-sky-600 hover:bg-pink-700 hover:font-serif text-black p-3 w-full rounded-lg text-xl tracking-widest"
+        >
+          Hacer una encuesta
+        </button>
+      </div>
+      <br/>
+
+      <br/>
+
+      <br/>
+    <!-- #5 FOOTER  -->
+    <footer class="text-center mt-12 mb-5">
+      <p class="hover:text-sky-500">
+        Diseñado &#38; Desarrollado por Claudia Cano.
+      </p>
+
+
+      <div class="my-2">
+        <a href=""><i class="bi bi-twitter hover:text-sky-500 px-2"></i></a>
+        <a href="">
+          <i class="bi bi-instagram hover:text-sky-500 px-2"></i
+        ></a>
+        <a href=""
+          ><i class="bi bi-linkedin hover:text-sky-500 px-2"></i
+        ></a>
+        <a href=""><i class="bi bi-github hover:text-sky-500 px-2"></i></a>
+      </div>
+    </footer>
+
+
+
+</body>
+</html>
